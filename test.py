@@ -153,5 +153,5 @@ def sendit():
 	
 	creds = login()
 	startSending(creds, to, subject, msg)
-	return f"{to} {subject} {msg}"
+	return "Success, Email sent :)"
 
